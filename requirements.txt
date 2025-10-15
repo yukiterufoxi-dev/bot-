@@ -1,0 +1,23 @@
+# Core
+aiogram==3.13.1
+fastapi==0.115.2
+uvicorn[standard]==0.32.0
+
+# DB
+SQLAlchemy==2.0.36
+sqlmodel==0.0.22
+
+# Settings / utils
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# Templates / static
+Jinja2==3.1.4
+aiofiles==24.1.0
+python-multipart==0.0.12
+
+# Crypto (optional Fernet)
+cryptography==43.0.1
+
+# Email validation (for official appeals)
+email-validator==2.2.0
