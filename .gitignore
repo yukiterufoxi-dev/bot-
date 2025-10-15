@@ -1,0 +1,31 @@
+# venv / python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# env & local
+.env
+.env.*
+!.env.example
+
+# data & media
+data/app.db
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/photos/
+data/*/photos/
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# compiled assets
+static/*/dist/
